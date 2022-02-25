@@ -1,8 +1,58 @@
 body{
     text-align: center;
+    font-weight: 600;
+    background-color: rgba(189, 245, 245, 0.863);
+}
+.text-box-container{
+    text-align: left;
+    display:inline-block;
+    width: 400px;
+    position: relative;
+    bottom: 90px;
+}
+.name-container{
+    text-align: left;
+    position: relative;
+    left: 17%;
+    top: 50px;
+}
+.name{
+    display: block;
+}
+.image-container{
+    text-align: center;
+    display:inline-block;
+    padding: 40px;
+}
+.avatar{
+    border-radius: 50%;
+}
+.container{
+    width: 1200px;
+    margin: 20px auto;
+
+}
+.div-color-block-1{
+    width: 1300px;
+    height: 450px;
+    z-index: -1;
+    background-color: rgb(233, 115, 37);
+}
+.blockleft{
+    position: absolute;
+    right: -490px;
+    top: -140px;
+
+}
+.blockright{
+
+}
+#upper-div{
+    width: 100%;
 }
 #background-image{
     width: 100%;
     align-content: center;
     text-align: center;
+    z-index: 0;
 }
