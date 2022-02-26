@@ -1,7 +1,8 @@
 body{
     text-align: center;
     font-weight: 600;
-    background-color: rgba(189, 245, 245, 0.863);
+    background-color: rgb(68, 64, 64);
+    color: white;
 }
 .text-box-container{
     text-align: left;
@@ -9,27 +10,40 @@ body{
     width: 400px;
     position: relative;
     bottom: 90px;
+    right: 60px;
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 25px;
+    opacity: 0.8;
 }
 .name-container{
-    text-align: left;
-    position: relative;
-    left: 17%;
+    left: 14%;
     top: 50px;
+    padding-left: 40px;
 }
 .name{
     display: block;
 }
 .image-container{
+    position: relative;
+    left:40px;
     text-align: center;
     display:inline-block;
     padding: 40px;
 }
 .avatar{
     border-radius: 50%;
+    width: 400px;
+    padding: 0px;
 }
 .container{
     width: 1200px;
     margin: 20px auto;
+    padding: 40px;
+    background-image: url(images/nightblur.jpg);
+    background-size: cover;
+    border-radius: 25px;
 
 }
 .div-color-block-1{
