@@ -17,10 +17,14 @@ body{
     border-radius: 25px;
     opacity: 0.8;
 }
+h2{
+    font-size: 2em;
+}
 .name-container{
     left: 14%;
-    top: 50px;
-    padding-left: 40px;
+    top: 20px;
+    padding: 40px;
+    color:rgb(226, 132, 69);
 }
 .name{
     display: block;
@@ -28,13 +32,17 @@ body{
 .image-container{
     position: relative;
     left:40px;
+    bottom: 15px;
     text-align: center;
     display:inline-block;
-    padding: 40px;
+    padding: 5px 5px 2px 5px;
+    z-index: 3;
+    background-color: rgb(226, 132, 69);
+    border-radius: 50%;
 }
 .avatar{
     border-radius: 50%;
-    width: 400px;
+    width: 300px;
     padding: 0px;
 }
 .container{
@@ -46,27 +54,37 @@ body{
     border-radius: 25px;
 
 }
-.div-color-block-1{
-    width: 1300px;
-    height: 450px;
-    z-index: -1;
-    background-color: rgb(233, 115, 37);
+.icon{
+    width: 80px;
+    border-radius: 25px;
 }
-.blockleft{
-    position: absolute;
-    right: -490px;
-    top: -140px;
-
+.skills{
+    width: 80%;
+    background-color: rgb(226, 132, 69);
+    margin: auto;
+    padding: 50px;
+    border-radius: 50px;
+    max-width: 1200px;
+    margin-bottom: 100px;
 }
-.blockright{
-
+.skill-container{
+    background-color: white;
+    border-radius: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 190px;
+    height: 190px;
+    color: black;
+    font-size: 1.3em;
+}
+.skill-container:hover{
+    background-color: rgb(145, 138, 138);
+    color: white;
+    position: relative;
+    bottom: 20px;
 }
 #upper-div{
     width: 100%;
-}
-#background-image{
-    width: 100%;
-    align-content: center;
-    text-align: center;
-    z-index: 0;
 }
